@@ -13,6 +13,7 @@
   justify-content: space-between;
   padding-top: 26px;
   padding-left: 30px;
+ 
 }
 
 .star {
@@ -20,6 +21,8 @@
 }
 .navigation {
   display: flex;
+  margin-right: 30px;
+  
 }
 .navigation_link {
   list-style: none;
@@ -34,8 +37,12 @@
   top: 26px;
   color: white;
   margin: 8px;
+  opacity: 0.4;
+  cursor: initial;
 }
-
+.navigation_link:nth-child(5)::after{
+  content: '';
+}
 .navigation_link :active,
 .navigation_link :hover {
   color: #f06c64;
@@ -54,4 +61,8 @@ a {
 .slider {
   height: 601px;
   background-color: #f06c64;
+}
+
+.slider_left {
+  
 }
