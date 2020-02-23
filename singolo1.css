@@ -89,35 +89,37 @@ a {
 .layer6 {
   position: absolute;
   top: 185px;
-  left: 374px;
+  left: 314px;
 }
 .p1 {
   position: absolute;
   top: 146px;
-  left: 460px;
+  left: 412px;
 }
 .p2 {
   position: absolute;
   top: 162px;
-  left: 445px;
+  left: 395px;
 }
 .p3 {
   position: absolute;
   top: 531px;
-  left: 443px;
+  left: 390px;
 }
 .p4 {
   position: absolute;
+  top: 545px;
+  left: 403px;
 }
 
 .slider_phone-horizontal {
   transform: rotate(90deg);
-  position: relative;
+  
   top: -24px;
   right: 90px;
 }
-.base_phone2 {
-  position: absolute;
+.base_phone1 {
+  position: relative;
 }
 .layer5 {
   position: absolute;
