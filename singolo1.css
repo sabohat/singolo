@@ -13,7 +13,6 @@
   justify-content: space-between;
   padding-top: 26px;
   padding-left: 30px;
- 
 }
 
 .star {
@@ -22,7 +21,6 @@
 .navigation {
   display: flex;
   margin-right: 30px;
-  
 }
 .navigation_link {
   list-style: none;
@@ -40,8 +38,8 @@
   opacity: 0.4;
   cursor: initial;
 }
-.navigation_link:nth-child(5)::after{
-  content: '';
+.navigation_link:nth-child(5)::after {
+  content: "";
 }
 .navigation_link :active,
 .navigation_link :hover {
@@ -64,5 +62,38 @@ a {
 }
 
 .slider_left {
-  
+}
+.grid {
+ text-align: justify;
+  display: grid;
+  grid-row-gap: 4px;
+  grid-column-gap: 15px;;
+  grid-template-columns: repeat(3, 300px);
+  grid-auto-rows: minmax(87px, auto);
+  grid-template-areas:
+    "our-services our-services our-services"
+    "s1 s2 s3"
+    "s4 s5 s6";
+}
+.our-services {
+  grid-area: our-services;
+}
+
+.s1 {
+  grid-area: s1;
+}
+.s2 {
+  grid-area: s2;
+}
+.s3 {
+  grid-area: s3;
+}
+.s4 {
+  grid-area: s4;
+}
+.s5 {
+  grid-area: s5;
+}
+.s6 {
+  grid-area: s6;
 }
