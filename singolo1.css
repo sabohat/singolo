@@ -66,23 +66,28 @@ a {
   display: flex;
   justify-content: space-between;
   padding-top: 32px;
+  width: 100%;
 }
 
 .slider_left .fa-chevron-right {
   transform: rotateY(180deg);
   position: absolute;
   top: 378px;
-  width: 16px;
-  height: 27px;
+  width: 20px;
+  height: 30px;
   color: #ca4549;
+  cursor: pointer;
 }
 .slider_right .fa-chevron-right {
   position: absolute;
   top: 378px;
-  width: 16px;
-  height: 27px;
+  width: 20px;
+  height: 30px;
   color: #ca4549;
+  cursor: pointer;
+  
 }
+
 .slider_phone-horizontal {
   position: relative;
 }
@@ -114,17 +119,16 @@ a {
 
 .slider_phone-horizontal {
   transform: rotate(90deg);
-  
+  position: relative;
   top: -24px;
   right: 90px;
 }
-.base_phone1 {
-  position: relative;
-}
+
 .layer5 {
   position: absolute;
   top: 59px;
   right: 15px;
+  box-shadow: 20px black;
 }
 .n1 {
   position: absolute;
@@ -143,8 +147,8 @@ a {
 }
 .n4 {
   position: absolute;
-  top: 544px;
-  left: 456px;
+  top: 417px;
+  left: 98px;
 }
 
 .pink_dot {
@@ -245,3 +249,6 @@ a {
 .services_icon {
   padding-left: 40px;
 }
+
+
+

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Lato';
+    src:@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+    font-weight: bold;
+    font-stylr: normal;
+}
+
+@font-face
+{
+    font-family: 'Lato';
+    font-weight: normal;
+    font-style: ;
+    src: url('../fonts/MeiryoUI.ttf');
+}
+
+.logo {
+    font-family: 'Lato',Verdana, serif;
+    color: #FFFFFF;
+    font
+}
+
+a {
+    font-family: 'Lato',Verdana, Geneva, Tahoma, sans-serif;
+font-size: 9px;
+}
+.our-services{
+    color: #666D89;
+}
+services {
+    font-family: 'Lato';
+font-style: normal;
+color: #666D89;
+}
+
+.service {
+    font-family: 'Lato';
+    color:#767E9E;
+}
