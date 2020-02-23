@@ -64,36 +64,65 @@ a {
 .slider_left {
 }
 .grid {
+  padding-left: 32px;
+  padding-right: 32px;
  text-align: justify;
   display: grid;
-  grid-row-gap: 4px;
-  grid-column-gap: 15px;;
+  grid-row-gap: 38px;
+  grid-column-gap: 30px;
   grid-template-columns: repeat(3, 300px);
   grid-auto-rows: minmax(87px, auto);
   grid-template-areas:
-    "our-services our-services our-services"
+    " services services services "
     "s1 s2 s3"
     "s4 s5 s6";
 }
-.our-services {
-  grid-area: our-services;
+.pen {
+  grid-area: pen;
 }
-
+.services {
+  grid-area: services;
+}
+.service{
+  margin-left: 20px;
+  width: 220px;
+}
 .s1 {
   grid-area: s1;
+  display: flex;
+  
 }
 .s2 {
   grid-area: s2;
+  display: flex;
 }
 .s3 {
   grid-area: s3;
+  display: flex;
+
 }
 .s4 {
   grid-area: s4;
+  display: flex;
 }
 .s5 {
   grid-area: s5;
+  display: flex;
 }
 .s6 {
   grid-area: s6;
+  display: flex;
 }
+
+.circle {
+  width: 59px;
+  height: 59px;
+  border-radius: 29px;
+  
+  border: 2px solid #666d89;
+  margin-top: -48px;
+  margin-left: -13px;
+}
+ img {
+  margin-top: 20px;
+ }
