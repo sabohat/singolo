@@ -1,9 +1,12 @@
 html {
-    width: 1020px;
+    
     font-size: 1opx;
     
 }
-
+body {
+    max-width: 1020px;
+    margin-left: 250px;
+}
 *{
     margin:0;
     padding: 0;
@@ -12,12 +15,150 @@ html {
 
 #portfolio {
     background-color:#2D303A;
-    height: 871px;
+    height: 863px;
 }
 .wrapper {
-    padding: 67px 39px;
+    padding: 54px 39px;
 }
 
-nav h1 {
-    font-size: 1.8rem;
+ h1 {
+    font-family: lato, sans-serif;
+
+font-weight: 900;
+
+font-style: normal;
+  color: #666D89;
+  font-size: 2rem;
+  letter-spacing: -0.6px;
 }
+
+#portfolio p {
+    font-family: lato, sans-serif;
+font-weight: 300;
+font-style: normal;
+color: #767E9E;
+text-align: justify;
+font-size: 1.1rem;
+letter-spacing: -0.003rem;
+padding-top: 0.9rem;
+}
+ ul{
+     padding-top: 1rem;
+     margin-bottom: 1.4rem;
+ }
+li {
+    display: inline;   
+}
+a:hover{
+    color: white;
+}
+a {
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    padding-bottom: 0.3rem;
+    margin-right: 4px;
+    border: 1px solid #666D89 ;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #767E9E;
+    font-size: 0.8rem;
+    font-family: lato, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.gallery {
+    display: grid;
+   
+    grid-template-areas: 
+    "p1 p2 p3 p4"
+    "p5 p6 p7 p8"
+    "p9 p10 p11 p12";
+    column-gap: 1.03rem;
+    row-gap: 1.2rem;
+}
+.gallery img {
+    width: 221px;
+    height: 188px;
+    cursor: pointer;
+
+}
+.gallery img:hover,
+.photo:hover {
+    opacity: 0.7;
+}
+
+ .p1 {grid-area: p1;}
+ .p2 {grid-area: p2;}
+ .p3 {grid-area: p3;}
+ .p4 {grid-area: p4;}
+ .p5 {grid-area: p5;}
+ .p6 {grid-area: p6;}
+ .p7 {grid-area: p7;}
+ .p8 {grid-area: p8;}
+ .p9 {grid-area: p9;}
+ .p10 {grid-area: p10;}
+ .p11 {grid-area: p11;}
+ .p12 {grid-area: p12;}
+
+ #portfolio_bottom {
+     background-color: #323746;
+     width: 100%;
+     height: 7px;
+ }
+
+ #about_us {
+     background-color: #F2F2F2;
+ }
+    .text h1{
+        letter-spacing: -0.08rem;
+    }
+    .text p {
+        margin-top: 17px;
+        color: #767E9E;
+        font-family: lato, sans-serif;
+font-weight: 300;
+font-style: normal;
+letter-spacing: 0.845px;
+line-height: 28px;
+    }
+ .contact {
+     margin-top: 43px;
+     display: flex;
+     justify-content: space-between;
+ }
+.third {
+    margin-left: 10px;
+}
+ .contact h2 {
+    font-family: lato, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #666D89;
+    font-size: 18px;
+    padding-top: 9px;
+ }
+ .contact p {
+    font-family: lato, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #767E9E;
+    font-size: 0.8rem;
+    padding-top: 7px;
+    line-height: 20px;
+    height: 65px;
+ }
+
+ .ico {
+    margin-top: 3px;
+     width: 150px;
+     padding-left: 2px;
+     cursor: pointer;
+ }
+ #about_us_bottom {
+width:100%;
+height:  7px;
+background-color: white;
+
+ }
