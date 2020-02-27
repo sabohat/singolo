@@ -1,0 +1,23 @@
+html {
+    width: 1020px;
+    font-size: 1opx;
+    
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#portfolio {
+    background-color:#2D303A;
+    height: 871px;
+}
+.wrapper {
+    padding: 67px 39px;
+}
+
+nav h1 {
+    font-size: 1.8rem;
+}

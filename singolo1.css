@@ -252,3 +252,26 @@ a {
 
 
 
+.logo {
+  font-family: 'Lato',Verdana, serif;
+  color: #FFFFFF;
+  font
+}
+
+a {
+  font-family: 'Lato',Verdana, Geneva, Tahoma, sans-serif;
+font-size: 9px;
+}
+.our-services{
+  color: #666D89;
+}
+services {
+  font-family: 'Lato';
+font-style: normal;
+color: #666D89;
+}
+
+.service {
+  font-family: 'Lato';
+  color:#767E9E;
+}
