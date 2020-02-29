@@ -55,10 +55,11 @@ a:hover{
 a {
     padding-right: 0.4rem;
     padding-left: 0.4rem;
-    padding-bottom: 0.3rem;
-    margin-right: 4px;
+    padding-bottom: 0.2rem;
+    padding-top: o.2rem;
+    margin-right: 3.4px;
     border: 1px solid #666D89 ;
-    border-radius: 5px;
+    border-radius: 6px;
     text-decoration: none;
     color: #767E9E;
     font-size: 0.8rem;
