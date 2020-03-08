@@ -28,5 +28,45 @@ body {
 
 input {
     display:flex;
+    background-color:#D6564F;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #D6564F;
+    border-radius: 4px;
+    
+}
+textarea {
+    background-color: #D6564F;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #D6564F;
+    border-radius: 4px;
+    resize: none;
+    color: #F48C8F;
 }
 
+/*color and style for placeholders*/
+
+::-webkit-input-placeholder {
+    color: #F48C8F;
+    font-weight: 800;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #F48C8F;  
+    font-weight: 800;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #F48C8F;  
+    font-weight: 800;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #F48C8F;  
+    font-weight: 800;
+ }
+
+ /*color and style for placeholders*/
