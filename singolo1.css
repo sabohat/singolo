@@ -41,10 +41,7 @@ body {
   
 }
 .navigation_link {
-  
-  
   list-style: none;
-
   margin: 14.5px;
   cursor: pointer;
 }
@@ -61,6 +58,9 @@ body {
 .navigation_link:nth-child(5)::after {
   content: "";
 }
+.navigation_link:nth-child(1) a {
+  color: #f06c64;
+}
 .navigation_link :active,
 .navigation_link :hover {
   color: #f06c64;
@@ -76,11 +76,10 @@ body {
   background-color: #323746;
   width: 100%;
   height: 7px;
-  margin-top: 0ex;
 }
 
 .slider_top {
-  height: 601px;
+  height: 590px;
   padding-left: 32px;
   padding-right: 32px;
   background-color: #f06c64;
@@ -91,70 +90,101 @@ body {
 }
 
 .slider_left .fa-chevron-right {
-  transform: rotateY(180deg);
-  position: absolute;
-  top: 378px;
-  width: 20px;
-  height: 30px;
+  transform: scale(-3);
+  margin-top: 22em;
+  width: 14px;
+  height: 27px;
   color: #ca4549;
   cursor: pointer;
 }
 .slider_right .fa-chevron-right {
-  position: absolute;
-  top: 378px;
-  width: 20px;
-  height: 30px;
+  transform: scale(3);
+  margin-top: 27.5em;
+  width: 14px;
+  height: 27px;
   color: #ca4549;
   cursor: pointer;
-  
+}
+.phones {
+  position: relative;
 }
 
-.slider_phone-horizontal {
-  position: relative;
+
+
+
+.phone-vertical {
+  position: absolute;
+  left: -398px;
+  top: 19px;
+  box-shadow: - 10px 10px #ccc ;
 }
 .layer6 {
   position: absolute;
-  top: 185px;
-  left: 314px;
+  top: 84px;
+  left: -384px;
+  box-shadow: 0 0 2px 2px #ccc; /* with blur shadow*/
+box-shadow: 0 0 0 2px #ccc; /* without blur shadow*/
+}
+.shadow {
+   position: absolute;
+  opacity: 0.1;
+  top: 19px;
+  left: -398px;
+  
 }
 .p1 {
   position: absolute;
-  top: 146px;
-  left: 412px;
+  top: 36px;
+  left: -294px;
+  border: 1px solid #D8D8D8;
+  box-shadow: 0 0 2px 2px #ccc; /* with blur shadow*/
+box-shadow: 0 0 0 2px #ccc; /* without blur shadow*/
 }
+
 .p2 {
   position: absolute;
-  top: 162px;
-  left: 395px;
+  top: 55px;
+  left: -309px;
 }
 .p3 {
   position: absolute;
-  top: 531px;
-  left: 390px;
+  top: 426px;
+  left: -314px;
 }
 .p4 {
   position: absolute;
-  top: 545px;
-  left: 403px;
+  top: 438px;
+  left: -300px;
 }
 
-.slider_phone-horizontal {
+
+.phone-horizontal {
+  position: absolute;
   transform: rotate(90deg);
-  position: relative;
-  top: -24px;
-  right: 90px;
+  top: 17px;
+  left: 34px;
 }
-
 .layer5 {
   position: absolute;
-  top: 59px;
-  right: 15px;
+  top: 65px;
+  left: 14px;
   box-shadow: 20px black;
+  box-shadow: 0 0 2px 2px #ccc; /* with blur shadow*/
+box-shadow: 0 0 0 2px #ccc; /* without blur shadow*/
+}
+.shadow2 {
+  transform: rotateY(180deg);
+  position: absolute;
+  opacity: 0.1;
+  top: -25px;
+  left: 0px;
 }
 .n1 {
   position: absolute;
-  top: 22px;
+  top: 20px;
   right: 105px;
+  box-shadow: 0 0 2px 2px #ccc; /* with blur shadow*/
+box-shadow: 0 0 0 2px #ccc; /* without blur shadow*/
 }
 .n2 {
   position: absolute;
@@ -163,12 +193,12 @@ body {
 }
 .n3 {
   position: absolute;
-  top: 404px;
+  top: 407px;
   right: 87px;
 }
 .n4 {
   position: absolute;
-  top: 417px;
+  top: 419px;
   left: 98px;
 }
 
@@ -180,9 +210,9 @@ body {
 }
 .line {
   width: 37px;
-  height: 6px;
+  height: 5px;
   background-color: #acacac;
-  border-radius: 25%;
+  border-radius: 3px;
 }
 
 .white_circle {
@@ -198,7 +228,10 @@ body {
   border: 2px solid #bababa;
   border-radius: 30%;
 }
-
+.slider_bottom {
+  height: 7px;
+  background-color: #EA676B;
+}
 .grid {
   height: 600px;
   padding-left: 32px;
