@@ -1,0 +1,32 @@
+html {
+    
+    font-size: 10px;
+    
+}
+body {
+    max-width: 1020px;
+    margin-left: 250px;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 54px 40px;
+}
+#get-quote {
+    height: 64.9rem;
+    background-color: #F06C64;
+    color: #F0D8D9;
+}
+.contact {
+    display: flex;
+}
+
+input {
+    display:flex;
+}
+
