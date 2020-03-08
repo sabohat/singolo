@@ -238,7 +238,6 @@ box-shadow: 0 0 0 2px #ccc; /* without blur shadow*/
   padding-right: 32px;
   text-align: justify;
   display: grid;
-  grid-row-gap: 60px;
   grid-column-gap: 30 / px;
   grid-template-columns: repeat(3, 300px);
   grid-auto-rows: minmax(87px, auto);
@@ -248,35 +247,69 @@ box-shadow: 0 0 0 2px #ccc; /* without blur shadow*/
     "s4 s5 s6";
 }
 
+.our-services {
+  height: 479px;
+  background-color: #F2F2F2;
+}
 .services {
   grid-area: services;
-  margin-top: 65px;
+  padding-top: 57px;
+  padding-left: 7px;
+}
+.services h2 {
+  font-family: 'lato', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+.services p {
+ word-spacing: -3.1px;
+  padding-top: 5px;
+  font-family: 'lato', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #767E9E;
+  line-height: 30px;
 }
 .service {
   margin-left: 20px;
   width: 220px;
 }
+.service h4 {
+  font-family: 'lato',sans-serif;
+  font-size:18px;
+  font-weight: 900;
+}
 .s1 {
+  margin-top: -1px;
+  margin-left: -18px;
   grid-area: s1;
   display: flex;
 }
 .s2 {
+  margin-top: -1px;
+
   grid-area: s2;
   display: flex;
 }
-.s3 {
+.s3 { margin-top:4px;
+  margin-left: 22px;
   grid-area: s3;
   display: flex;
 }
 .s4 {
+  margin-top: -16px;
+  margin-left: -18px;
   grid-area: s4;
   display: flex;
 }
 .s5 {
+  margin-top: -13px;
   grid-area: s5;
   display: flex;
 }
 .s6 {
+  margin-left: 22px;
+  margin-top: -16px;
   grid-area: s6;
   display: flex;
 }
